@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+	<valve>
+		<class-name>org.apache.catalina.valves.RemoteIpValve</class-name>
+		<param>
+			<param-name>protocolHeader</param-name>
+			<param-value>x-forwarded-proto</param-value>
+		</param>
+	</valve>
+</jboss-web>
