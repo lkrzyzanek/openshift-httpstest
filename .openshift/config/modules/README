@@ -16,5 +16,3 @@ modules directory.
 
 NOTE: Replacing default modules as in scenario 1 can cause conflicts between modules so
 should be done with caution and adequate testing.
-
-TODO: Add Custom module to handle 'x-forwarded-proto' header. More info: https://community.jboss.org/wiki/AddAGlobalValveInAS772x
