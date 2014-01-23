@@ -481,7 +481,7 @@
 				<alias name="localhost" />
 			</virtual-server>
 			<!-- #1 - Added Global Valve   -->
-			<valve name="remoteipvalve" module="remoteipvalve" class-name="org.apache.catalina.valves.RemoteIpValve">
+			<valve name="remoteipvalve" module="org.jboss.as.web" class-name="org.apache.catalina.valves.RemoteIpValve">
 				<param param-name="protocolHeader" param-value="x-forwarded-proto"/>
 			</valve>
 		</subsystem>
